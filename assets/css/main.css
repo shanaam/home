@@ -2591,13 +2591,13 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #c7c7c7;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("../../images/header_img.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		background-size: auto,								100%;
+		color: rgba(31, 31, 31, 0.5);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2624,17 +2624,19 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: rgb(97, 97, 97);
+			font-size: 1.35em;
+			line-height: 1.7em;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #242222;
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
-			line-height: 1.75em;
+			color: rgba(97, 97, 97, 0.75);
+			font-size: 1.2em;
+			line-height: 1.2em;
 			margin: 0;
 		}
 
@@ -2650,19 +2652,19 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(70, 70, 70, 0.6);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
-		font-size: 0.8em;
+		color: rgba(70, 70, 70, 0.3);
+		font-size: 0.7em;
 		list-style: none;
 		margin: 1em 0 0 0;
 		padding: 0;
 	}
 
 		#footer .copyright li {
-			border-left: solid 1px rgba(255, 255, 255, 0.25);
+			border-left: solid 1px rgba(70, 70, 70, 0.3);
 			display: inline-block;
 			line-height: 1em;
 			margin-left: 0.75em;
@@ -3078,7 +3080,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image:  url("../../images/header_img.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
