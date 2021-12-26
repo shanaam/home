@@ -102,7 +102,7 @@ input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
-		line-height: 1.75em;
+		line-height: 1.5em;
 	}
 
 	a {
@@ -131,7 +131,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -147,18 +147,18 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2em;
-		line-height: 1.5em;
-	}
-
-	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
-	h3 {
+	h2 {
 		font-size: 1.25em;
-		line-height: 1.5em;
+		line-height: 1em;
+	}
+
+	h3 {
+		font-size: 1em;
+		line-height: 1em;
 	}
 
 	h4 {
@@ -1791,7 +1791,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 /* Form */
@@ -2624,17 +2624,17 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: rgb(97, 97, 97);
+			color: rgb(59, 59, 59);
 			font-size: 1.35em;
 			line-height: 1.7em;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #242222;
+			color: rgba(97, 97, 97, 0.75);
 		}
 
 		#header h1 {
-			color: rgba(97, 97, 97, 0.75);
+			color: rgba(37, 37, 37);
 			font-size: 1.2em;
 			line-height: 1.2em;
 			margin: 0;
